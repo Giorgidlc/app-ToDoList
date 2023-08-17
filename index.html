@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <section class="addListToDo">
+    <button class="addListToDo__newList">Nueva lista</button>
+  </section>
+  <section class="addToDo-wraper">
+    <label for="toDoInput"></label>
+    <input type="text" id="toDoInput" name="toDoInput">
+    <button class="addToDo">Agrega una tarea</button>
+  </section>
+  <section class="toDoList">
+    <div class="toDoList-wrap">
+      <h2 class="title">Lista de tareas pendientes</h2>
+      <ul class="toDoList__list"></ul>
+    </div>
+  </section>
+  <section class="listDone">
+    <div class="listDone-wrap">
+      <h2 class="title">Lista de tareas realizadas</h2>
+      <ul class="listDone__list"></ul>
+    </div>
+  </section>
+  <script src="/src/events/functions.js" type="module"></script>
+</body>
+</html>

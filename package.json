@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "server": "npx --watch json-server ./src/services/server.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jorge De Leon",
