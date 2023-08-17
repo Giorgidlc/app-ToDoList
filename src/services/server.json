@@ -1,24 +1,3 @@
 {
-  "toDoList": [
-    {
-      "id": 1,
-      "text": "NUEVO"
-    },
-    {
-      "id": 2,
-      "text": "PROGRAMAR"
-    },
-    {
-      "id": 3,
-      "text": "Hola"
-    },
-    {
-      "id": 4,
-      "text": "a"
-    },
-    {
-      "id": 5,
-      "text": "a"
-    }
-  ]
+  "toDoList": []
 }
