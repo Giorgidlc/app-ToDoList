@@ -1,16 +1,22 @@
 {
   "toDoList": [
     {
-      "title": "pendiente de check",
-      "description": "",
-      "completed": false,
-      "id": 1
+      "title": "Cambiar tarea ",
+      "description": "Colocar una descripción",
+      "completed": true,
+      "id": 14
     },
     {
-      "title": "es true?",
+      "title": "Editar tarea",
+      "description": "dar al boton",
+      "completed": true,
+      "id": 15
+    },
+    {
+      "title": "Agregar tarea",
       "description": "",
       "completed": false,
-      "id": 2
+      "id": 16
     }
   ]
 }

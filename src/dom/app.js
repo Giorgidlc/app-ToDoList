@@ -1,6 +1,9 @@
-export let $toDoInput = document.getElementById("toDoInput");
-export let $btnAddToDo = document.querySelector(".addToDo");
-export let $toDoList = document.querySelector(".toDoList__list");
+export const $toDoInput = document.getElementById("toDoInput");
+export const $btnAddToDo = document.querySelector(".addToDo");
+export const $toDoList = document.querySelector(".toDoList__listContainer");
+export const $editListContent = document.querySelector(".editList");
+export const $editList = document.querySelector(".editList__list");
+
 
 
 

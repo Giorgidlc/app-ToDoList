@@ -1,32 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <link rel="stylesheet" href="/src/styles/css/reset.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="/src/styles/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+  <title>TO DO LIST</title>
 </head>
 <body>
-  <section class="addListToDo">
-    <button class="addListToDo__newList">Nueva lista</button>
-  </section>
-<!--   <section class="addToDo-wraper">
-  
-  </section> -->
-  <section class="toDoList">
-    <div class="toDoList-wrap">
-      <h2 class="title">Lista de tareas pendientes</h2>
-      <ul class="toDoList__list"></ul>
-      <label for="toDoInput"></label>
-      <input type="text" id="toDoInput" name="toDoInput">
-      <button class="addToDo">Agrega una tarea</button>
-    </div>
-  </section>  
-  <section class="listDone">
-    <div class="listDone-wrap">
-      <h2 class="title">Lista de tareas realizadas</h2>
-      <ul class="listDone__list"></ul>
-    </div>
-  </section> 
+  <div class="layout">
+    <header class="header">
+      <h2 class="Title">Lista de tareas</h2>
+    </header>
+    <main class="main-wrap">
+      <section class="hello-wrap">
+        <div class="hello-content">
+          <h1 class="hello-content__title">¡Hola!</h1>
+          <p class="hello-content__description">Estas son tus tareas</p>
+        </div>
+      </section>
+      <section class="toDoList">        
+        <div id="filterContainer"></div>
+        <ul class="toDoList__listContainer"></ul>
+        <label for="toDoInput"></label>
+        <input type="text" id="toDoInput" name="toDoInput" placeholder="Escribe una tarea aquí">
+        <button class="addToDo">Agrega una tarea</button>
+      </section>
+    </main>
+    <section class="editList">
+      <div class="editList-wrap">
+        <h2 class="editList__title">Editar tarea</h2>
+        <ul class="editList__list"></ul>
+      </div>
+    </section> 
+  </div>
   <script src="/src/events/functions.js" type="module"></script> 
 </body>
 </html>

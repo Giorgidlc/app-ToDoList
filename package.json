@@ -11,6 +11,7 @@
   "author": "Jorge De Leon",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.3"
+    "json-server": "^0.17.3",
+    "sass": "^1.66.1"
   }
 }
